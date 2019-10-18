@@ -13,6 +13,6 @@ Copy GetExtIP to your C: folder
 USAGE
 
 From shell:
-1) type GetExtIP
-2) to set your env variable you could type something like GetExtIP >ENV:ExternalIP
-3) GetExtIP GUI to display a window
+1) type: GetExtIP
+2) to set your env variable you could type something like: GetExtIP >ENV:ExternalIP
+3) to display a window: GetExtIP GUI
