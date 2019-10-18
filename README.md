@@ -1,6 +1,6 @@
 # GetExtIP
-Get external IP for AmigaOS
-A simple program that gets your external IP
+Get external IP for AmigaOS. A simple program that gets your external IP
+Compiles with vbcc
 
 REQUIREMENTS
 
