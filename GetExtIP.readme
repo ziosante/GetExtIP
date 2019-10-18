@@ -1,0 +1,45 @@
+Short:        Get your external IP
+Uploader:     ziosante@libero.it (Sante Nocciolino)
+Author:       ziosante@libero.it (Sante Nocciolino)
+Type:         util/cli
+Version:      1.3
+Architecture: m68k-amigaos >= 3.1; ppc-morphos; ppc-amigaos
+Distribution: Aminet
+
+WHAT IS IT?
+
+A simple program that gets your external IP
+
+REQUIREMENTS
+
+A working internet connection
+
+INSTALLATION
+
+Copy GetExtIP to your C: folder
+
+USAGE
+
+From shell:
+1) type GetExtIP
+2) to set your env variable you could type something like GetExtIP >ENV:ExternalIP
+3) GetExtIP GUI to display a window
+
+VERSION HISTORY
+
+1.3 (12-Sep-2018)
+- added a simple gui
+
+1.2u (22-Aug-2018)
+- added AmigaOS 4 binary
+
+1.2 (14-Aug-2018)
+- fixed a bug (wrong buffer size cleaning)
+- added MorphOS binary
+
+1.1 (10-Aug-2018)
+- swap to a new stack if the old one is not big enough
+- added optimized version for 020+ processors
+
+1.0 (07-Ago-2018)
+- first release
